@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "url blocker",
+    "version":"0.0.0.1",
+    "permissions": ["storage", "activeTab", "<all_urls>", "webRequest", "webRequestBlocking"],
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "background": {
+        "scripts": ["script/script.js"]
+    }
+}
